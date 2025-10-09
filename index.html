@@ -503,10 +503,37 @@
         </div>
     </footer>
     
+    <div class="mobile-bottom-nav-container">
+        <nav class="bottom-nav">
+            <a href="#hero" class="bottom-nav__link active" aria-label="Beranda">
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="#about" class="bottom-nav__link" aria-label="Tentang">
+                <i class="fas fa-user"></i>
+            </a>
+            <a href="#contact" class="bottom-nav__link" aria-label="Kontak">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <button class="bottom-nav__link" id="more-nav-toggle" aria-label="Menu Lainnya">
+                <i class="fas fa-ellipsis-h"></i>
+            </button>
+        </nav>
+        
+        <div class="more-nav-panel" id="more-nav-panel">
+            <a href="#education" data-lang="navHistory" class="more-nav__link">Riwayat</a>
+            <a href="#skills" data-lang="navSkills" class="more-nav__link">Keahlian</a>
+            <a href="#certificates" data-lang="navCertificates" class="more-nav__link">Sertifikat</a>
+            <a href="#projects" data-lang="navProjects" class="more-nav__link">Proyek</a>
+        </div>
+    </div>
+
     <a href="assets/CV_MOH_OFIKURRAHMAN.pdf" download class="floating-cv-btn" aria-label="Download CV">
         <i class="fas fa-download"></i>
         <span class="btn-text">Download CV</span>
     </a>
+
+    <div class="overlay" id="overlay"></div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
